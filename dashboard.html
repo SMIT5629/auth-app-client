@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - Smit</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-blue-700 text-white flex justify-between items-center px-4 py-2">
+  <h1 class="text-lg font-semibold">Dashboard</h1>
+  <button 
+    id="logout-btn" 
+    class="bg-white text-blue-700 text-sm px-3 py-1 rounded hover:bg-blue-100 transition"
+  >
+    Logout
+  </button>
+</header>
+
+
+  <!-- Main Content -->
+  <main class="p-6 max-w-4xl mx-auto">
+    <section class="mb-6">
+      <h2 class="text-xl font-semibold mb-2">👋 Welcome, Smit!</h2>
+      <p>This is your dashboard. From here, you can manage your blog, check analytics, or access account settings.</p>
+    </section>
+
+    <section class="mb-6">
+      <h3 class="text-lg font-semibold mb-1">📊 Stats Overview</h3>
+      <ul class="list-disc list-inside">
+        <li>10 Blog Posts</li>
+        <li>135 Total Visitors</li>
+        <li>5 Comments</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3 class="text-lg font-semibold mb-1">⚙️ Quick Actions</h3>
+      <ul class="list-disc list-inside">
+        <li><a href="#" class="text-blue-600 hover:underline">Write New Post</a></li>
+        <li><a href="#" class="text-blue-600 hover:underline">Edit Profile</a></li>
+        <li><a href="#" class="text-blue-600 hover:underline">View Comments</a></li>
+        <li><a href="#" class="text-blue-600 hover:underline">Check Analytics</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-200 text-center py-3 mt-8">
+    <p class="text-sm text-gray-600">&copy; 2025 Smit's Dashboard</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
